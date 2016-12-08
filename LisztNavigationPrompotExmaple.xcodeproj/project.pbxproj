@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5ACBBEB45C38F7B7C1682FC /* libPods-LisztNavigationPrompotExmaple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AF80FDB974864AAF4E556F /* libPods-LisztNavigationPrompotExmaple.a */; };
+		FF8200B41DF10B0400A2B8D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8200B31DF10B0400A2B8D3 /* main.m */; };
+		FF8200B71DF10B0400A2B8D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8200B61DF10B0400A2B8D3 /* AppDelegate.m */; };
+		FF8200BA1DF10B0400A2B8D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8200B91DF10B0400A2B8D3 /* ViewController.m */; };
+		FF8200BD1DF10B0400A2B8D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8200BB1DF10B0400A2B8D3 /* Main.storyboard */; };
+		FF8200BF1DF10B0400A2B8D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8200BE1DF10B0400A2B8D3 /* Assets.xcassets */; };
+		FF8200C21DF10B0400A2B8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8200C01DF10B0400A2B8D3 /* LaunchScreen.storyboard */; };
+		FF8200CD1DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8200CC1DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests.m */; };
+		FF8200D81DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8200D71DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests.m */; };
+		FF8200E81DF10C3900A2B8D3 /* LisztNavigationPrompt.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8200E71DF10C3900A2B8D3 /* LisztNavigationPrompt.m */; };
+		FF8200ED1DF11C4F00A2B8D3 /* lisztNavigationprompt_done_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8200EA1DF11C4F00A2B8D3 /* lisztNavigationprompt_done_icon@2x.png */; };
+		FF8200EE1DF11C4F00A2B8D3 /* lisztNavigationprompt_right_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8200EB1DF11C4F00A2B8D3 /* lisztNavigationprompt_right_icon@2x.png */; };
+		FF8200EF1DF11C4F00A2B8D3 /* lisztNavigationprompt_waring_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF8200EC1DF11C4F00A2B8D3 /* lisztNavigationprompt_waring_icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8200C91DF10B0400A2B8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8200A71DF10B0400A2B8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8200AE1DF10B0400A2B8D3;
+			remoteInfo = LisztNavigationPrompotExmaple;
+		};
+		FF8200D41DF10B0400A2B8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8200A71DF10B0400A2B8D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8200AE1DF10B0400A2B8D3;
+			remoteInfo = LisztNavigationPrompotExmaple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AF80FDB974864AAF4E556F /* libPods-LisztNavigationPrompotExmaple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LisztNavigationPrompotExmaple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F25964FEBE15C559D780A33 /* libPods-LisztNavigationPrompotExmapleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LisztNavigationPrompotExmapleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20DF1B0BC6D126039423F3D3 /* libPods-LisztNavigationPrompotExmapleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LisztNavigationPrompotExmapleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B517A607C87F0029D47AC889 /* Pods-LisztNavigationPrompotExmaple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LisztNavigationPrompotExmaple.release.xcconfig"; path = "Pods/Target Support Files/Pods-LisztNavigationPrompotExmaple/Pods-LisztNavigationPrompotExmaple.release.xcconfig"; sourceTree = "<group>"; };
+		E4045F8BFA165C14177ACD23 /* Pods-LisztNavigationPrompotExmaple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LisztNavigationPrompotExmaple.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LisztNavigationPrompotExmaple/Pods-LisztNavigationPrompotExmaple.debug.xcconfig"; sourceTree = "<group>"; };
+		FF8200AF1DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LisztNavigationPrompotExmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8200B31DF10B0400A2B8D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF8200B51DF10B0400A2B8D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF8200B61DF10B0400A2B8D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF8200B81DF10B0400A2B8D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF8200B91DF10B0400A2B8D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF8200BC1DF10B0400A2B8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8200BE1DF10B0400A2B8D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8200C11DF10B0400A2B8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8200C31DF10B0400A2B8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8200C81DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisztNavigationPrompotExmapleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8200CC1DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztNavigationPrompotExmapleTests.m; sourceTree = "<group>"; };
+		FF8200CE1DF10B0400A2B8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8200D31DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LisztNavigationPrompotExmapleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8200D71DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztNavigationPrompotExmapleUITests.m; sourceTree = "<group>"; };
+		FF8200D91DF10B0400A2B8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8200E61DF10C3900A2B8D3 /* LisztNavigationPrompt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LisztNavigationPrompt.h; sourceTree = "<group>"; };
+		FF8200E71DF10C3900A2B8D3 /* LisztNavigationPrompt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LisztNavigationPrompt.m; sourceTree = "<group>"; };
+		FF8200EA1DF11C4F00A2B8D3 /* lisztNavigationprompt_done_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lisztNavigationprompt_done_icon@2x.png"; sourceTree = "<group>"; };
+		FF8200EB1DF11C4F00A2B8D3 /* lisztNavigationprompt_right_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lisztNavigationprompt_right_icon@2x.png"; sourceTree = "<group>"; };
+		FF8200EC1DF11C4F00A2B8D3 /* lisztNavigationprompt_waring_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lisztNavigationprompt_waring_icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8200AC1DF10B0400A2B8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5ACBBEB45C38F7B7C1682FC /* libPods-LisztNavigationPrompotExmaple.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8200C51DF10B0400A2B8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8200D01DF10B0400A2B8D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EB3F557165DEF947263713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01AF80FDB974864AAF4E556F /* libPods-LisztNavigationPrompotExmaple.a */,
+				1F25964FEBE15C559D780A33 /* libPods-LisztNavigationPrompotExmapleTests.a */,
+				20DF1B0BC6D126039423F3D3 /* libPods-LisztNavigationPrompotExmapleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		482F3E48E6F600DFFC23F065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4045F8BFA165C14177ACD23 /* Pods-LisztNavigationPrompotExmaple.debug.xcconfig */,
+				B517A607C87F0029D47AC889 /* Pods-LisztNavigationPrompotExmaple.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF8200A61DF10B0400A2B8D3 = {
+			isa = PBXGroup;
+			children = (
+				FF8200B11DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple */,
+				FF8200CB1DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests */,
+				FF8200D61DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests */,
+				FF8200B01DF10B0400A2B8D3 /* Products */,
+				482F3E48E6F600DFFC23F065 /* Pods */,
+				37EB3F557165DEF947263713 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8200B01DF10B0400A2B8D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8200AF1DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple.app */,
+				FF8200C81DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests.xctest */,
+				FF8200D31DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8200B11DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple */ = {
+			isa = PBXGroup;
+			children = (
+				FF8200E51DF10BD500A2B8D3 /* LisztNavigationPrompt */,
+				FF8200B51DF10B0400A2B8D3 /* AppDelegate.h */,
+				FF8200B61DF10B0400A2B8D3 /* AppDelegate.m */,
+				FF8200B81DF10B0400A2B8D3 /* ViewController.h */,
+				FF8200B91DF10B0400A2B8D3 /* ViewController.m */,
+				FF8200BB1DF10B0400A2B8D3 /* Main.storyboard */,
+				FF8200BE1DF10B0400A2B8D3 /* Assets.xcassets */,
+				FF8200C01DF10B0400A2B8D3 /* LaunchScreen.storyboard */,
+				FF8200C31DF10B0400A2B8D3 /* Info.plist */,
+				FF8200B21DF10B0400A2B8D3 /* Supporting Files */,
+			);
+			path = LisztNavigationPrompotExmaple;
+			sourceTree = "<group>";
+		};
+		FF8200B21DF10B0400A2B8D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8200B31DF10B0400A2B8D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF8200CB1DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8200CC1DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests.m */,
+				FF8200CE1DF10B0400A2B8D3 /* Info.plist */,
+			);
+			path = LisztNavigationPrompotExmapleTests;
+			sourceTree = "<group>";
+		};
+		FF8200D61DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8200D71DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests.m */,
+				FF8200D91DF10B0400A2B8D3 /* Info.plist */,
+			);
+			path = LisztNavigationPrompotExmapleUITests;
+			sourceTree = "<group>";
+		};
+		FF8200E51DF10BD500A2B8D3 /* LisztNavigationPrompt */ = {
+			isa = PBXGroup;
+			children = (
+				FF8200E91DF11C4A00A2B8D3 /* LisztNavigationPromptIcon */,
+				FF8200E61DF10C3900A2B8D3 /* LisztNavigationPrompt.h */,
+				FF8200E71DF10C3900A2B8D3 /* LisztNavigationPrompt.m */,
+			);
+			path = LisztNavigationPrompt;
+			sourceTree = "<group>";
+		};
+		FF8200E91DF11C4A00A2B8D3 /* LisztNavigationPromptIcon */ = {
+			isa = PBXGroup;
+			children = (
+				FF8200EA1DF11C4F00A2B8D3 /* lisztNavigationprompt_done_icon@2x.png */,
+				FF8200EB1DF11C4F00A2B8D3 /* lisztNavigationprompt_right_icon@2x.png */,
+				FF8200EC1DF11C4F00A2B8D3 /* lisztNavigationprompt_waring_icon@2x.png */,
+			);
+			path = LisztNavigationPromptIcon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8200AE1DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8200DC1DF10B0400A2B8D3 /* Build configuration list for PBXNativeTarget "LisztNavigationPrompotExmaple" */;
+			buildPhases = (
+				BA848F111B0C0EB197AA2758 /* [CP] Check Pods Manifest.lock */,
+				FF8200AB1DF10B0400A2B8D3 /* Sources */,
+				FF8200AC1DF10B0400A2B8D3 /* Frameworks */,
+				FF8200AD1DF10B0400A2B8D3 /* Resources */,
+				5340364B4A435C75FF3DD77C /* [CP] Embed Pods Frameworks */,
+				69754D8BFD9DF85A0B4CC54F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LisztNavigationPrompotExmaple;
+			productName = LisztNavigationPrompotExmaple;
+			productReference = FF8200AF1DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8200C71DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8200DF1DF10B0400A2B8D3 /* Build configuration list for PBXNativeTarget "LisztNavigationPrompotExmapleTests" */;
+			buildPhases = (
+				FF8200C41DF10B0400A2B8D3 /* Sources */,
+				FF8200C51DF10B0400A2B8D3 /* Frameworks */,
+				FF8200C61DF10B0400A2B8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8200CA1DF10B0400A2B8D3 /* PBXTargetDependency */,
+			);
+			name = LisztNavigationPrompotExmapleTests;
+			productName = LisztNavigationPrompotExmapleTests;
+			productReference = FF8200C81DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF8200D21DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8200E21DF10B0400A2B8D3 /* Build configuration list for PBXNativeTarget "LisztNavigationPrompotExmapleUITests" */;
+			buildPhases = (
+				FF8200CF1DF10B0400A2B8D3 /* Sources */,
+				FF8200D01DF10B0400A2B8D3 /* Frameworks */,
+				FF8200D11DF10B0400A2B8D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8200D51DF10B0400A2B8D3 /* PBXTargetDependency */,
+			);
+			name = LisztNavigationPrompotExmapleUITests;
+			productName = LisztNavigationPrompotExmapleUITests;
+			productReference = FF8200D31DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8200A71DF10B0400A2B8D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "https://github.com/LisztGitHub";
+				TargetAttributes = {
+					FF8200AE1DF10B0400A2B8D3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+					};
+					FF8200C71DF10B0400A2B8D3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF8200AE1DF10B0400A2B8D3;
+					};
+					FF8200D21DF10B0400A2B8D3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF8200AE1DF10B0400A2B8D3;
+					};
+				};
+			};
+			buildConfigurationList = FF8200AA1DF10B0400A2B8D3 /* Build configuration list for PBXProject "LisztNavigationPrompotExmaple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8200A61DF10B0400A2B8D3;
+			productRefGroup = FF8200B01DF10B0400A2B8D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8200AE1DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple */,
+				FF8200C71DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests */,
+				FF8200D21DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8200AD1DF10B0400A2B8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8200ED1DF11C4F00A2B8D3 /* lisztNavigationprompt_done_icon@2x.png in Resources */,
+				FF8200C21DF10B0400A2B8D3 /* LaunchScreen.storyboard in Resources */,
+				FF8200EF1DF11C4F00A2B8D3 /* lisztNavigationprompt_waring_icon@2x.png in Resources */,
+				FF8200BF1DF10B0400A2B8D3 /* Assets.xcassets in Resources */,
+				FF8200BD1DF10B0400A2B8D3 /* Main.storyboard in Resources */,
+				FF8200EE1DF11C4F00A2B8D3 /* lisztNavigationprompt_right_icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8200C61DF10B0400A2B8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8200D11DF10B0400A2B8D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5340364B4A435C75FF3DD77C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LisztNavigationPrompotExmaple/Pods-LisztNavigationPrompotExmaple-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69754D8BFD9DF85A0B4CC54F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LisztNavigationPrompotExmaple/Pods-LisztNavigationPrompotExmaple-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA848F111B0C0EB197AA2758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8200AB1DF10B0400A2B8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8200BA1DF10B0400A2B8D3 /* ViewController.m in Sources */,
+				FF8200B71DF10B0400A2B8D3 /* AppDelegate.m in Sources */,
+				FF8200E81DF10C3900A2B8D3 /* LisztNavigationPrompt.m in Sources */,
+				FF8200B41DF10B0400A2B8D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8200C41DF10B0400A2B8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8200CD1DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8200CF1DF10B0400A2B8D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8200D81DF10B0400A2B8D3 /* LisztNavigationPrompotExmapleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8200CA1DF10B0400A2B8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8200AE1DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple */;
+			targetProxy = FF8200C91DF10B0400A2B8D3 /* PBXContainerItemProxy */;
+		};
+		FF8200D51DF10B0400A2B8D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8200AE1DF10B0400A2B8D3 /* LisztNavigationPrompotExmaple */;
+			targetProxy = FF8200D41DF10B0400A2B8D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF8200BB1DF10B0400A2B8D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8200BC1DF10B0400A2B8D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8200C01DF10B0400A2B8D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8200C11DF10B0400A2B8D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8200DA1DF10B0400A2B8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF8200DB1DF10B0400A2B8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8200DD1DF10B0400A2B8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4045F8BFA165C14177ACD23 /* Pods-LisztNavigationPrompotExmaple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztNavigationPrompotExmaple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztNavigationPrompotExmaple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF8200DE1DF10B0400A2B8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B517A607C87F0029D47AC889 /* Pods-LisztNavigationPrompotExmaple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztNavigationPrompotExmaple/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztNavigationPrompotExmaple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF8200E01DF10B0400A2B8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztNavigationPrompotExmapleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztNavigationPrompotExmapleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztNavigationPrompotExmaple.app/LisztNavigationPrompotExmaple";
+			};
+			name = Debug;
+		};
+		FF8200E11DF10B0400A2B8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztNavigationPrompotExmapleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztNavigationPrompotExmapleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztNavigationPrompotExmaple.app/LisztNavigationPrompotExmaple";
+			};
+			name = Release;
+		};
+		FF8200E31DF10B0400A2B8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztNavigationPrompotExmapleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztNavigationPrompotExmapleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LisztNavigationPrompotExmaple;
+			};
+			name = Debug;
+		};
+		FF8200E41DF10B0400A2B8D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = LisztNavigationPrompotExmapleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztNavigationPrompotExmapleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LisztNavigationPrompotExmaple;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8200AA1DF10B0400A2B8D3 /* Build configuration list for PBXProject "LisztNavigationPrompotExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8200DA1DF10B0400A2B8D3 /* Debug */,
+				FF8200DB1DF10B0400A2B8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8200DC1DF10B0400A2B8D3 /* Build configuration list for PBXNativeTarget "LisztNavigationPrompotExmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8200DD1DF10B0400A2B8D3 /* Debug */,
+				FF8200DE1DF10B0400A2B8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8200DF1DF10B0400A2B8D3 /* Build configuration list for PBXNativeTarget "LisztNavigationPrompotExmapleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8200E01DF10B0400A2B8D3 /* Debug */,
+				FF8200E11DF10B0400A2B8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8200E21DF10B0400A2B8D3 /* Build configuration list for PBXNativeTarget "LisztNavigationPrompotExmapleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8200E31DF10B0400A2B8D3 /* Debug */,
+				FF8200E41DF10B0400A2B8D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8200A71DF10B0400A2B8D3 /* Project object */;
+}
